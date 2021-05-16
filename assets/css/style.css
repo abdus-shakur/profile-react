@@ -360,6 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -509,7 +510,7 @@ section {
 
 .about .image {
   background: url("../img/me.jpg") center center no-repeat;
-  background-size: cover;
+  background-size: contain;
   min-height: 400px;
 }
 
