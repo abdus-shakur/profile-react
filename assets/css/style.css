@@ -1145,3 +1145,17 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
+.certificate-spacing{
+  margin-top: 3rem;
+}
+
+@media (max-width: 767px)  {
+  .certificate-spacing{
+    margin-top: 0;
+  }
+}
+
+.cert-card{
+  margin-bottom: 2rem!important;
+}
