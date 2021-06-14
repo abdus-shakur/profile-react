@@ -349,6 +349,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
+  #hero {
+    width: 100%;
+    height: 75vh;
+    background: url("../img/hero-bg.jpg") top left;
+    background-size: cover;
+    padding: 0 15px;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -398,6 +405,12 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+}
+
+@media (max-width : 768px){
+  section {
+    padding: 1.2rem 0.8rem;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -706,6 +719,103 @@ section {
 @media (max-width: 768px) {
   .services .icon-box::before {
     bottom: 60%;
+  }
+}
+
+.certificate-spacing{
+  margin-top: 3rem;
+}
+
+@media (max-width: 767px)  {
+  .certificate-spacing{
+    margin-top: 0;
+  }
+}
+
+.cert-card{
+  margin-bottom: 2rem!important;
+}
+
+/*--------------------------------------------------------------
+# Award and Acheivements
+--------------------------------------------------------------*/
+.awards .content {
+  padding: 30px 0;
+}
+
+.awards .content h3 {
+  font-weight: 500;
+  font-size: 34px;
+  color: #2c4964;
+}
+
+.awards .content p {
+  margin-bottom: 0;
+}
+
+.awards .content .count-box {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.awards .content .count-box i {
+  display: block;
+  font-size: 36px;
+  color: #eeafca;
+  float: left;
+  line-height: 0;
+}
+
+.awards .content .count-box span {
+  font-size: 36px;
+  line-height: 20px;
+  display: block;
+  font-weight: 700;
+  color: #2c4964;
+  margin-left: 50px;
+  font-family: "Playfair Display", serif;
+}
+
+.awards .content .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 50px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #437099;
+}
+
+.awards .content .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #437099;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+
+.awards .content .count-box a:hover {
+  color: #6b96be;
+}
+
+.awards .image {
+  background: url("../img/me.jpg") center center no-repeat;
+  background-size: contain;
+  min-height: 400px;
+}
+
+@media (max-width: 991px) {
+  .awards .image {
+    text-align: center;
+  }
+  .awards .image img {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 667px) {
+  .awards .image img {
+    max-width: 100%;
   }
 }
 
@@ -1144,18 +1254,4 @@ section {
   padding-top: 8px;
   text-align: center;
   font-size: 13px;
-}
-
-.certificate-spacing{
-  margin-top: 3rem;
-}
-
-@media (max-width: 767px)  {
-  .certificate-spacing{
-    margin-top: 0;
-  }
-}
-
-.cert-card{
-  margin-bottom: 2rem!important;
 }
