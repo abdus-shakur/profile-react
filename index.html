@@ -37,6 +37,21 @@
     integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+
+    <!---  IP Address fetcher --->
+    <?php
+    if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+
+    $ip=$_SERVER['HTTP_CLIENT_IP'];}
+
+    elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+
+    $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];} else {
+
+    $ip=$_SERVER['REMOTE_ADDR'];}
+
+    ?>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-6WCKXYR91Q"></script>
     <script>
@@ -44,7 +59,13 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-6WCKXYR91Q');
+      gtag('config', 'G-6WCKXYR91Q',{
+
+        'custom_map': {'dimension1': 'ip'}
+        
+        });
+        
+        gtag('event', 'ip_address', {'ip': '<?=$ip;?>'});
     </script>
 
   <!-- =======================================================
