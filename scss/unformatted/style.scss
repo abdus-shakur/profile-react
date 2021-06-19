@@ -1179,6 +1179,12 @@ input#email::placeholder,input#name::placeholder,input#subject::placeholder,text
 .contact .php-email-form button[type="submit"]:hover {
   background: $primary-color-link-hover;
 }
+@media (max-width:768px){
+  .php-email-form{
+    margin-top: 2.5rem;
+  }
+}
+
 
 @-webkit-keyframes animate-loading {
   0% {

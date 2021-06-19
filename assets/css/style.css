@@ -1163,6 +1163,11 @@ input#email::placeholder, input#name::placeholder, input#subject::placeholder, t
   background: #52057B;
 }
 
+@media (max-width: 768px) {
+  .php-email-form {
+    margin-top: 2.5rem;
+  }
+}
 @-webkit-keyframes animate-loading {
   0% {
     transform: rotate(0deg);
