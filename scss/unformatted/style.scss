@@ -135,7 +135,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .download-button:hover {
-  background: $primary-color-link;
+  background: $primary-white;
+  color: $secondary-heading-h2;
 }
 
 /*--------------------------------------------------------------

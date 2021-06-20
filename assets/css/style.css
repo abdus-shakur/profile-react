@@ -130,7 +130,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .download-button:hover {
-  background: #BC6FF1;
+  background: #000;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
