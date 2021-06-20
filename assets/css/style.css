@@ -120,6 +120,19 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 6rem;
 }
 
+.download-button {
+  background: #52057B;
+  border: 0;
+  padding: 1rem 2.4rem;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 5rem;
+}
+
+.download-button:hover {
+  background: #BC6FF1;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
