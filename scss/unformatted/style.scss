@@ -128,15 +128,18 @@ h1, h2, h3, h4, h5, h6 {
 .download-button{
   background: $primary-color-link-hover;
   border: 0;
+  
   padding: 1rem 2.4rem;
   color: $secondary-heading-h2;
-  transition: 0.4s;
+  // transition: 0.4s;
+  transition: all 2s;
   border-radius: 5rem;
 }
 
 .download-button:hover {
   background: $primary-white;
   color: $secondary-heading-h2;
+  transition: all 0.4s;
 }
 
 /*--------------------------------------------------------------
