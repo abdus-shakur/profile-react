@@ -641,7 +641,7 @@ section {
   margin-bottom: 1rem;
 }
 
-.resume .resume-item h5 {
+.resume .resume-item h5, .view-more-button {
   font-size: 1.6rem;
   background: #310549;
   padding: 0.5rem 1.5rem;
