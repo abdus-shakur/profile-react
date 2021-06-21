@@ -707,6 +707,10 @@ section {
 .services .icon-box:hover {
   transform: translateY(-1rem);
   transition: transform 2s;
+  background: #000;
+}
+.services .icon-box p, .services .icon-box h4 {
+  color: #fff;
 }
 
 .services .icon {

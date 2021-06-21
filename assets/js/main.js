@@ -15,6 +15,15 @@ var experience = now.diff(experienceStart, 'years', true);
   $(".count-box:eq(0) :nth-child(2)").attr('data-purecounter-end',experience);
   $('#experience').text(Math.round(experience*100)/100);
 
+
+  // Increase card click area
+  $.each($('.icon-box'), function (i) {
+    $('.icon-box').eq(i).click(function() {
+      window.open($('.icon-box').eq(i).children('.title').children('a').attr('href'),"_self");
+    })
+  });
+
+
   /**
    * Easy selector helper function
    */

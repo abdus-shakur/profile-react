@@ -721,6 +721,11 @@ section {
   &:hover{
     transform: translateY(-1rem);
     transition: transform 2s;
+    background: $primary-white;
+  }
+  
+  p,h4{
+    color: $secondary-heading-h2;
   }
 
 }
