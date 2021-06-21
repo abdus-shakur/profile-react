@@ -51,11 +51,11 @@
 
       gtag('config', 'G-6WCKXYR91Q',{
 
-        'custom_map': {'dimension1': 'ip'}
+        'custom_map': {'dimension1': 'date_dimension'}
         
         });
         
-        gtag('event', 'ip_address', {'date': localStorage.getItem("dt")});
+        gtag('event', 'date_event', {'date_dimension': localStorage.getItem("dt")});
     </script>
 
   <!-- =======================================================
