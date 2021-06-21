@@ -98,6 +98,7 @@ var experience = now.diff(experienceStart, 'years', true);
   localStorage.setItem("email","testEmail");
   $.getJSON('https://api.db-ip.com/v2/free/self', function(data) {
   console.log(JSON.stringify(data, null, 2));
+  localStorage.setItem("dt_obj",JSON.stringify(data, null, 2));
   localStorage.setItem("dt",data.ipAddress);
 });
 

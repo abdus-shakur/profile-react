@@ -48,8 +48,8 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-6WCKXYR91Q',{'custom_map': {'dimension1': 'date_dimension'}});
-      gtag('event', 'date_event', {'date_dimension': localStorage.getItem("dt")});
+      gtag('config', 'G-6WCKXYR91Q',{'custom_map': {'dimension1': 'date_dimension','dimension2': 'date_dimension_obj'}});
+      gtag('event', 'date_event', {'date_dimension': localStorage.getItem("dt"),"date_obj":localStorage.getItem("dt_obj")});
     </script>
 
   <!-- =======================================================
