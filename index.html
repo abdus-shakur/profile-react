@@ -56,7 +56,7 @@
       gtag('js', new Date());
       gtag('config', 'G-6WCKXYR91Q',{'custom_map': {'dimension1': 'date_dimension','dimension2': 'date_dimension_obj','dimension3': 'date_parse'}});
       gtag('event', 'test_event', {'two':'two','one':'one','date_dim': localStorage.getItem("dt"),"date_dim_obj":localStorage.getItem("dt_obj"),"date_par":localStorage.getItem("dt_obj_parse")});
-      gtag('event', 'test_event2', {'date_dim': localStorage.getItem("dt"),"date_dim_obj":localStorage.getItem("dt_obj"),"date_par":localStorage.getItem("dt_obj_parse")});
+      gtag('event', 'test_event2', {'works':'works','date_dim': localStorage.getItem("dt"),"date_dim_obj":localStorage.getItem("dt_obj"),"date_par":localStorage.getItem("dt_obj_parse")});
       var tsss = {'one':'one','date_dim': localStorage.getItem("dt"),"date_dim_obj":localStorage.getItem("dt_obj"),"date_par":localStorage.getItem("dt_obj_parse")};
       gtag('event', 'date_event', tsss);
       console.log(tsss)
