@@ -11,7 +11,7 @@ test.forEach(val=>{
     console.log(1+val);
 })
 console.log(ts)
-  localStorage.setItem("formatted")
+  localStorage.setItem("formatted",ts);
   localStorage.setItem("dt_obj_parse","["+data.ipAddress+","+data.city+","+data.stateProv+","+data.countryName+","+data.countryCode+","+data.continentCode+","+data.continentName+"]");
 //   localStorage.setItem("dt_obj_parse","["+ts+","+data.ipAddress+","+data.city+","+data.stateProv+","+data.countryName+","+data.countryCode+","+data.continentCode+","+data.continentName+"]");
 //   localStorage.setItem("dt_obj_parse","["+ts+","+data.city+","+data.stateProv+","+data.countryName+","+data.countryCode+","+data.continentCode+","+data.continentName+"]");
