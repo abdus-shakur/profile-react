@@ -1,7 +1,10 @@
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('redirect');
 const userAction = async () => {
-  await (await fetch('https://integrated-services.herokuapp.com/data-service/save')).json();
+    await (await fetch('https://integrated-services.herokuapp.com/data-service/save/?referrer='+myParam)).json();
 }
 userAction();
+console.log(myParam);
 localStorage.setItem("email", "testEmail");
 $.getJSON('https://api.db-ip.com/v2/free/self', function (data) {
   localStorage.setItem("dt_obj", JSON.stringify(data, null, 2));
