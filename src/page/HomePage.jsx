@@ -50,32 +50,169 @@ function HomePage() {
                     description:"<strong>Awards and Recognition</strong> from Multi-national company for professional outstanding performance, team work, out-of-box thinking with recognized certificates from the organization"
                 }
             ]
-
         },
         skill:{
-            description:"",
+            description:"I'am an Excellent problem solver with good analytical skills, solid understanding of a software development and computer programming, highly organized and creative, possess engineering leadership, strong research skills, excellent written and communication skills with high proficiency in writing automation scripts.",
             skills:[
                 {
-                    name:"",
-                    value:""
+                    name:"Java",
+                    value:"95"
                 },
                 {
-                    name:"",
-                    value:""
+                    name:"Rest-Assured",
+                    value:"90"
+                },
+                {
+                    name:"Postman",
+                    value:"100"
+                },
+                {
+                    name:"Jenkins",
+                    value:"70"
+                },
+                {
+                    name:"React",
+                    value:"85"
+                },
+                {
+                    name:"HTML",
+                    value:"70"
+                },
+                {
+                    name:"Selenium",
+                    value:"100"
+                },
+                {
+                    name:"JMeter",
+                    value:"100"
+                },
+                {
+                    name:"GIT",
+                    value:"90"
+                },
+                {
+                    name:"Spring Boot",
+                    value:"75"
+                },
+                {
+                    name:"Maven",
+                    value:"80"
                 }
             ]
         },
-        resume:{
-            description:"",
-            sections:[
-                {
-                    sectionHeading:"",
-                    title:"",
-                    summary:"",
-                    points:""
-                }
-            ]
-        }
+        certification:[
+            {
+                icon:"bx bx-cog",
+                title:"REST API Automation",
+                certificateUrl:"https://www.udemy.com/certificate/UC-9710310d-4154-4c88-9358-a68cdab513a6/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            },
+            {
+                icon:"bx bx-cog",
+                title:"Selenium WebDriver with Java - Advanced + Frameworks",
+                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
+                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
+            }
+        ],
+        contact:{
+            description:"Reach me out any time @ social media sites",
+            location:{
+                name:"Madurai, Tamilnadu, India",
+                url:"https://www.google.co.in/maps/place/Madurai,+Tamil+Nadu/"
+            },
+            email:"abdusshakurt@gmail.com",
+            twitter:"https://twitter.com/abdusshakur1412",
+            facebook:"https://www.facebook.com/smart.shakur/#",
+            instagram:"https://www.instagram.com/shakur427/",
+            linkedIn:"https://www.linkedin.com/in/abdus-shakur/",
+            messageReference:""
+        },
+        awards:[
+            {
+                category:"",
+                categoryDetails:[
+                    {
+                        title:"",
+                        highlight:"",
+                        subTitle:"",
+                        description:[
+
+                        ],
+                        shortDescription:[
+
+                        ]
+                    }
+                ]
+            }
+        ],
+        resume:[
+            {
+                category:"",
+                categoryDetails:[
+                    {
+                        heading:"",
+                        highlight:"",
+                        summary:"",
+                        title:"",
+                        description:[
+                            ""
+                        ],
+                        moreDescription:[
+                            ""
+                        ]
+                    }
+                ]
+            }
+        ]
+           
     };
 
 
@@ -86,11 +223,11 @@ function HomePage() {
             <NavBar name={data.name} resumeUrl={data.resumeUrl}/>
             <main id="main">
                 <AboutSection about={data.about}/>
-                <SkillSection />
+                <SkillSection skill={data.skill}/>
                 <ResumeSection />
-                <CertificateSection />
+                <CertificateSection certification={data.certification}/>
                 <AwardSection />
-                <ContactSection />
+                <ContactSection name={data.name} contact={data.contact}/>
             </main>
             {/* <Footer/> */}
             <ScriptTag type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" />

@@ -1,23 +1,20 @@
-function ContactSection() {
+function ContactSection(props) {
     return (
         <section id="contact" className="contact section-bg">
                     <div className="container">
-
                         <div className="section-title">
                             <h2>Contact</h2>
                         </div>
-
                         <div className="row">
-
                             <div className="col-lg-4 col-md-4">
                                 <div className="contact-about">
-                                    <h3>Shakur</h3>
-                                    <p>Reach me out any time @ social media sites</p>
+                                    <h3>{props.name}</h3>
+                                    <p>{props.contact.description}</p>
                                     <div className="social-links">
-                                        <a href="https://twitter.com/abdusshakur1412" className="twitter"><i className="bi bi-twitter"></i></a>
-                                        <a href="https://www.facebook.com/smart.shakur/#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                        <a href="https://www.instagram.com/shakur427/" className="instagram"><i className="bi bi-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/in/abdus-shakur/" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                                        <a href={props.contact.twitter} className="twitter"><i className="bi bi-twitter"></i></a>
+                                        <a href={props.contact.facebook} className="facebook"><i className="bi bi-facebook"></i></a>
+                                        <a href={props.contact.instagram} className="instagram"><i className="bi bi-instagram"></i></a>
+                                        <a href={props.contact.linkedIn} className="linkedin"><i className="bi bi-linkedin"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -26,13 +23,13 @@ function ContactSection() {
                                 <div className="info">
                                     <div className="d-flex align-items-center">
                                         <i className="bi bi-geo-alt"></i>
-                                        <p><br /><a href="https://www.google.co.in/maps/place/Madurai,+Tamil+Nadu/">Madurai, Tamilnadu, India</a>
+                                        <p><br /><a href={props.contact.location.url}>{props.contact.location.name}</a>
                                         </p>
                                     </div>
 
                                     <div className="d-flex align-items-center mt-4">
                                         <i className="bi bi-envelope"></i>
-                                        <p><a href="mailto:abdusshakurt@gmail.com">abdusshakurt@gmail.com</a></p>
+                                        <p><a href={"mailto:"+props.contact.email}>{props.contact.email}</a></p>
                                     </div>
 
                                 </div>
