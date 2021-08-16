@@ -113,54 +113,6 @@ function HomePage() {
                 title:"Selenium WebDriver with Java - Advanced + Frameworks",
                 certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
                 description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
-            },
-            {
-                icon:"bx bx-cog",
-                title:"Selenium WebDriver with Java - Advanced + Frameworks",
-                certificateUrl:"https://www.udemy.com/certificate/UC-4734a1b3-f9cd-4d4c-a782-a4a828852c11/",
-                description:"Indepth Understanding of Building Backend for Web Applications from Scratch"   
             }
         ],
         contact:{
