@@ -38,11 +38,13 @@ function generateAwardDetails(awardCategory) {
                     
                 </div>
             </div>:
+            
             <ul>
+                {console.log("UL  Elements")}
             {chronoDetail.description.map(desc=>(<li>{parse(desc)}</li>))}
-            {chronoDetail.shortDescription ? <div><p className="view-more-button" data-bs-toggle="collapse" data-bs-target={"#collapseAwards" + gen.getRandomNumber()} aria-expanded="false" aria-controls="collapseExample">
+            {chronoDetail.shortDescription ? <div><li className="view-more-button" data-bs-toggle="collapse" data-bs-target={"#collapseAwards" + gen.getRandomNumber()} aria-expanded="false" aria-controls="collapseExample">
                 View More ...
-            </p>
+            </li>
             <div className="collapse" id={"collapseAwards" + gen.getRandomNumber()}>
             {chronoDetail.shortDescription.map(desc=>(<li>{parse(desc)}</li>))}
             </div>
@@ -60,12 +62,13 @@ export default props => {
         <div className="container">
             <div className="section-title">
                 <h2>{props.pageTitle}</h2>
+                <p>{props.awards.description}</p>
             </div>
             <div className="row">
                 <div className="col-lg-6">
                     {props.awards.details.map(awardCategory => (
                         <div>
-                            {((awardCategory.align != 'right' || awardCategory.align == 0 )&& awardCategory.align != 1) ?
+                            {((awardCategory.align != 'RIGHT' || awardCategory.align == 0 )&& awardCategory.align != 1) ?
                                 (<div>
                                     <h3 className="resume-title">{awardCategory.category}</h3>
                                     {generateAwardDetails(awardCategory)}
@@ -76,7 +79,7 @@ export default props => {
                 <div className="col-lg-6">
                     {props.awards.details.map(awardCategory => (
                         <div>
-                            {((awardCategory.align == 'right' || awardCategory.align == 1 )&& awardCategory.align != 0 ) ?
+                            {((awardCategory.align == 'RIGHT' || awardCategory.align == 1 )&& awardCategory.align != 0 ) ?
                                 (<div>
                                     <h3 className="resume-title">{awardCategory.category}</h3>
                                     {generateAwardDetails(awardCategory)}

@@ -1,8 +1,14 @@
 import axios from 'axios'
 class ProfileAdapter{
 
+    constructor(){
+        this.profileDetailUrl = "http://localhost:8080";
+        this.profileDetailEndpoint = "/profile-details";
+    }
+
     getProfile(queryParams){
-        return axios.request({url:`http://localhost:8080/profile-details${queryParams}`,method:'get'});
+        var profileUrl = String(this.profileDetailUrl)+this.profileDetailEndpoint+queryParams;
+        return axios.request({url:profileUrl,method:'get'});
     }
 
 }
