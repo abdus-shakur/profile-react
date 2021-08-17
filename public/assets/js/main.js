@@ -6,7 +6,6 @@
 */
 (function() {
   "use strict";
-  console.log("gsgjeslgkjsjgljsgs test");
 
   // Set Years of Experience
 
@@ -234,7 +233,6 @@
     }
   });
 
-  console.log("above way point");
   /**
    * Skills animation
    */
@@ -244,7 +242,6 @@
       element: skilsContent,
       offset: '80%',
       handler: function(direction) {
-        console.log("reached way point");
         let progress = select('.progress .progress-bar', true);
         progress.forEach((el) => {
           el.style.width = el.getAttribute('aria-valuenow') + '%'
