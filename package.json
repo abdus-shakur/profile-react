@@ -1,43 +1,29 @@
 {
-  "name": "profile-react",
-  "version": "0.1.0",
-  "homepage": "./",
-  "private": true,
+  "name": "lonely_scss_build",
+  "version": "1.0.0",
+  "description": "Access the web Page here [Profile](https://abdus-shakur.github.io/profile-basic/)",
+  "main": "index.js",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^11.2.7",
-    "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.21.1",
-    "html-react-parser": "^1.2.7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-router-dom": "^5.2.0",
-    "react-script-tag": "^1.1.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.2"
+    "sass": "^1.35.1"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "scss": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-scss": "sass scss/main.scss assets/css/style.css -w",
+    "start-server" : "live-server",
+    "watch-server": "concurrently --kill-others \"npm run build-scss\" \" npm run start-server\" "
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdus-shakur/profile-basic.git"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdus-shakur/profile-basic/issues"
+  },
+  "homepage": "https://github.com/abdus-shakur/profile-basic#readme"
 }
