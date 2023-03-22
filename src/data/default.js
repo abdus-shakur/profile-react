@@ -15,7 +15,7 @@ var profileData = {
                 "icon": "bi bi-clock",
                 "value": "3",
                 "decimals": "2",
-                "description": "<strong>Years of experience</strong> in the field of Information Technology and services, providing automation and development services with varied technologies and requirements."
+                "description": "<strong>Years of experience</strong> in the field of Information Technology and services, providing Backend API and UI development services with varied technologies based upon the requirements."
             },
             {
                 "icon": "bi bi-emoji-smile",
