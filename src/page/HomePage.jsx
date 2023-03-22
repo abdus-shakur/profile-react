@@ -22,7 +22,7 @@ function HomePage(props) {
     var loc = useLocation()
 
     useEffect(()=>{
-        ProfileAdapter.getProfile(loc.search).then(response=>{setProfileData(response.data);});
+        ProfileAdapter.getProfile(loc.search).then(response=>{setProfileData(response.data);}).catch(exception=>console.log("Exception in getting profile data;"+exception));
         return  ()=>  {ProfileAdapter.getProfile(loc.search).then(response=>{setProfileData(response.data);}); } 
         },[]
     )
