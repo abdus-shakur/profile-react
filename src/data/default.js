@@ -4,7 +4,7 @@ var profileData = {
     "indicationType": "Testing - Full Stack / UI Based + Devops",
     "experience": "2023-01-22T15:48:14.118+00:00",
     "experienceValue": null,
-    "designation": "Java Full Stack Developer",
+    "designation": "Java Full-Stack Developer",
     "resumeUrl": "https://drive.google.com/file/d/1NaT8qWa6KiJpYmOVnzA9pigqAC1WCmxa/view?usp=sharing",
     "about": {
         "description": [

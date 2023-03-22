@@ -19,6 +19,7 @@
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build && rm -rf docs && mv build docs",
+    "git-build": "react-scripts --openssl-legacy-provider build && rm -rf docs && mv build docs && git add . && git commit -am \"Git Pages Build from NPM\" && git push",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
