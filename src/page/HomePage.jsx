@@ -11,7 +11,7 @@ import ContactSection from '../components/sections/ContactSection'
 import Footer from '../components/footer/Footer'
 import ProfileAdapter from '../adapter/ProfileAdapter';
 import {useLocation} from 'react-router-dom';
-import profileData from '../data/default'
+import profileData from '../data/fullStackDeveloper'
 
 
 
