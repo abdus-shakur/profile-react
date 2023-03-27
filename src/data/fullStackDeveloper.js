@@ -13,7 +13,7 @@ var profileData = {
         "aboutObjects": [
             {
                 "icon": "bi bi-clock",
-                "value": "3",
+                "value": "5",
                 "decimals": "2",
                 "description": "<strong>Years of experience</strong> in the field of Information Technology and services, providing Backend API and UI development services with varied technologies based upon the requirements."
             },
@@ -33,7 +33,7 @@ var profileData = {
                 "icon": "bi bi-clock",
                 "value": "14",
                 "decimals": "0",
-                "description": "<strong>Proficient Technologies</strong> with professional handson experience in End to End Testing, Automation, Backend-Web Development and Devops."
+                "description": "<strong>Proficient Technologies</strong> with professional handson experience End to end Full stack development, Testing, Automation, Backend-Web Development and Devops."
             },
             {
                 "icon": "bi bi-award",

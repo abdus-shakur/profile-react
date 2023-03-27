@@ -13,6 +13,7 @@
   var now = moment();
   var experience = now.diff(experienceStart, 'years', true);
   $(".count-box:eq(0) :nth-child(2)").attr('data-purecounter-end',experience);
+  $(".count-box:eq(0) :nth-child(2)").text(Math.round(experience*100)/100);
   $('#experience').text(Math.round(experience*100)/100);
 
 
