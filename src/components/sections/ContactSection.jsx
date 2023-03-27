@@ -36,7 +36,7 @@ function ContactSection(props) {
                             </div>
 
                             <div className="col-lg-5 col-md-8">
-                                <form action="https://integrated-services.herokuapp.com/messages" method="post" role="form" className="php-email-form">
+                                <form action="https://integrated-services.herokuapp.com/messages" method="post" className="php-email-form">
                                     <div className="form-group">
                                         <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
                                     </div>

@@ -8,7 +8,7 @@ import ResumeSection from '../components/sections/ResumeSection'
 import CertificateSection from '../components/sections/CertificateSection'
 import AwardSection from '../components/sections/AwardSection'
 import ContactSection from '../components/sections/ContactSection'
-import Footer from '../components/footer/Footer'
+// import Footer from '../components/footer/Footer'
 import ProfileAdapter from '../adapter/ProfileAdapter';
 import {useLocation} from 'react-router-dom';
 import profileData from '../data/fullStackDeveloper'
@@ -24,7 +24,7 @@ function HomePage(props) {
     useEffect(()=>{
         ProfileAdapter.getProfile(loc.search).then(response=>{setProfileData(response.data);}).catch(exception=>console.log("Exception in getting profile data;"+exception));
         return  ()=>  {ProfileAdapter.getProfile(loc.search).then(response=>{setProfileData(response.data);}); } 
-        },[]
+        },[loc.search]
     )
     
 

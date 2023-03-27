@@ -1,4 +1,4 @@
-export default props => {
+function Card(props) {
     var certificate = props.certificate;
     return (<div className="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0 cert-card">
         <div className="icon-box">
@@ -8,3 +8,5 @@ export default props => {
         </div>
     </div>)
 }
+
+export default Card;
