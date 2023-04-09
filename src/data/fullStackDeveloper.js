@@ -15,7 +15,7 @@ var profileData = {
                 "icon": "bi bi-clock",
                 "value": "5",
                 "decimals": "2",
-                "description": "<strong>Years of experience</strong> I have several years of experience in the Information Technology and services industry, where I have been providing top-notch Backend API and UI development services. Throughout my career, I have demonstrated my ability to collaborate with clients and team members, ensuring that their needs are understood and met."
+                "description": "<strong>Years of experience</strong> I have several years of experience in the Information Technology and services industry, where I have been providing top-notch Backend API and UI development services."
             },
             {
                 "icon": "bi bi-emoji-smile",
@@ -27,13 +27,13 @@ var profileData = {
                 "icon": "bi bi-journal-richtext",
                 "value": "8",
                 "decimals": "0",
-                "description": "<strong>Certified : </strong>I am proficient in various skills and have obtained certifications from well-recognized e-learning providers. These certifications provide a testament to my expertise and knowledge in the respective areas. The validation of these certificates is available online and can be verified by potential employers or clients to ensure the authenticity of my qualifications."
+                "description": "<strong>Certified : </strong>I am proficient in various skills and have obtained certifications from well-recognized e-learning providers. The validation of these certificates is available online and can be verified by potential employers or clients to ensure the authenticity of my qualifications."
             },
             {
                 "icon": "bi bi-clock",
                 "value": "14",
                 "decimals": "0",
-                "description": "<strong>Proficient Technologies</strong> with professional handson experience End to end Full stack development, Testing, Automation, Backend-Web Development and Devops."
+                "description": "<strong>Proficient Technologies : </strong> with professional handson experience End to end Full stack development, Testing, Automation, Backend-Web Development and Devops."
             },
             {
                 "icon": "bi bi-award",
