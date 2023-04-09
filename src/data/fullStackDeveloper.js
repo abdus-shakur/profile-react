@@ -15,19 +15,19 @@ var profileData = {
                 "icon": "bi bi-clock",
                 "value": "5",
                 "decimals": "2",
-                "description": "<strong>Years of experience</strong> in the field of Information Technology and services, providing Backend API and UI development services with varied technologies based upon the requirements."
+                "description": "<strong>Years of experience</strong> I have several years of experience in the Information Technology and services industry, where I have been providing top-notch Backend API and UI development services. Throughout my career, I have demonstrated my ability to collaborate with clients and team members, ensuring that their needs are understood and met."
             },
             {
                 "icon": "bi bi-emoji-smile",
                 "value": "15",
                 "decimals": "0",
-                "description": "<strong>Projects</strong> Completed up to date including professional and own creational projects."
+                "description": "<strong>Projects :</strong> I have a diverse portfolio of completed projects that includes both professional and personal creations. These projects are a testament to my technical expertise, creative problem-solving abilities, and attention to detail."
             },
             {
                 "icon": "bi bi-journal-richtext",
                 "value": "8",
                 "decimals": "0",
-                "description": "<strong>Certifications </strong>done with readily available online validation of the certificates from Leading E-Learning Providers."
+                "description": "<strong>Certified : </strong>I am proficient in various skills and have obtained certifications from well-recognized e-learning providers. These certifications provide a testament to my expertise and knowledge in the respective areas. The validation of these certificates is available online and can be verified by potential employers or clients to ensure the authenticity of my qualifications."
             },
             {
                 "icon": "bi bi-clock",
