@@ -33,7 +33,7 @@ var profileData = {
                 "icon": "bi bi-clock",
                 "value": "14",
                 "decimals": "0",
-                "description": "<strong>Proficient Technologies : </strong> with professional handson experience End to end Full stack development, Testing, Automation, Backend-Web Development and Devops."
+                "description": "<strong>Proficient Technologies : </strong> My expertise in full-stack development allows me to work on projects from ideation to deployment, ensuring that all aspects of the development process are handled effectively."
             },
             {
                 "icon": "bi bi-award",

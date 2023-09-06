@@ -4,6 +4,7 @@ class ProfileAdapter{
     constructor(){
         this.profileDetailUrl = "http://localhost:8080";
         this.profileDetailEndpoint = "/profile-details";
+        this.profileDetailUrl = "https://profile-details-service.onrender.com";
     }
 
     getProfile(queryParams){
