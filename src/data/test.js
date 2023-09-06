@@ -1,5 +1,5 @@
 var profileData = {
-    "id": "63cd5a30dfe91e5d2080d334",
+    
     "name": "Shakur",
     "indicationType": "Java Full Stack Developer",
     "experience": "2023-01-22T15:48:14.118+00:00",
@@ -98,18 +98,6 @@ var profileData = {
     },
     "certification": [
         {
-            "icon": "bx bx-globe",
-            "title": "Java Web Development",
-            "url": "https://www.udemy.com/certificate/UC-7538b86e-9ea8-4a54-8c3b-700a899fb986/",
-            "description": "Indepth Understanding of Building Backend for Web Applications from Scratch"
-        },
-        {
-            "icon": "bx bx-git-repo-forked",
-            "title": "Git Complete - The Definitive Guide",
-            "url": "https://www.udemy.com/certificate/UC-b9c9a89d-460d-41d3-bac1-a6bf4a5b75dc/",
-            "description": "Very Solid Understanding and Hands-On Experience with Git and related source control concepts."
-        },
-        {
             "icon": "bx bx-cog",
             "title": "REST API Automation",
             "url": "https://www.udemy.com/certificate/UC-9710310d-4154-4c88-9358-a68cdab513a6/",
@@ -126,6 +114,18 @@ var profileData = {
             "title": "JMeter - Performance Testing",
             "url": "https://www.udemy.com/certificate/UC-e37c69f0-efdc-4683-841c-e6513c1de00e/",
             "description": "Design Robust Performance Testcases in Jmeter tool with the help of available features and Monitor the Performance of application with different Load Parameters"
+        },
+        {
+            "icon": "bx bx-globe",
+            "title": "Java Web Development",
+            "url": "https://www.udemy.com/certificate/UC-7538b86e-9ea8-4a54-8c3b-700a899fb986/",
+            "description": "Indepth Understanding of Building Backend for Web Applications from Scratch"
+        },
+        {
+            "icon": "bx bx-git-repo-forked",
+            "title": "Git Complete - The Definitive Guide",
+            "url": "https://www.udemy.com/certificate/UC-b9c9a89d-460d-41d3-bac1-a6bf4a5b75dc/",
+            "description": "Very Solid Understanding and Hands-On Experience with Git and related source control concepts."
         },
         {
             "icon": "bx bxl-figma",
@@ -324,7 +324,7 @@ var profileData = {
         ]
     },
     "resume": {
-        "description": "I'm an Experienced Full Stack Developer with a demonstrable history of working in the information technology and services industry. Skilled in Springboot, React, API/UI Automation, JMeter, Maven, Agile Methodologies and Leading the Team. Strong engineering professional with a Bachelor of Engineering focused in Backend Services , Web Development and related Technologies.",
+        "description": "I'm an Experienced Automation Engineer with a demonstrable history of working in the information technology and services industry. Skilled in API Automation, JMeter, Maven, Agile Methodologies, Quality Assurance, and UI Automation. Strong engineering professional with a Bachelor of Engineering - B.E. focused in Automation Testing and Web Development and all related Technologies.",
         "details": [
             {
                 "description": null,
@@ -334,7 +334,7 @@ var profileData = {
                     {
                         "title": "Abdus Shakur",
                         "highlight": null,
-                        "summary": "<br/><em>Highly dedicated Full Stack Developer & Team Lead, Offering with over <strong><em><span id='experience'>5.20</span></em></strong> years of Industry Experience in Developing Web Services and UI Applications.</em>",
+                        "summary": "<br/><em>Highly dedicated Quality Assurance Automation Engineer & Developer, Offering with over <strong><em><span id='experience'>2.88</span></em></strong> years of Industry Experience in Automated Testing.</em>",
                         "descriptionType": "bulletin",
                         "description": [
                             "<em>Madurai, TamilNadu, India.</em>",
@@ -350,7 +350,7 @@ var profileData = {
                 "align": "LEFT",
                 "categoryDetails": [
                     {
-                        "title": "Full Stack Developer & Team Lead",
+                        "title": "Quality Assurance Automation Lead",
                         "highlight": "Apr 2020 - Present",
                         "summary": "<strong><em>Tata Consultancy Services, Kochi, Kerala, India</em></strong>",
                         "descriptionType": "bullet",
